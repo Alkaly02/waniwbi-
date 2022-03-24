@@ -15,14 +15,14 @@
 
     <section class="container-fluid bilboard">
         <div id="backgr-im">
-            <h1 id="h1-1"> WELCOME ON WANIEBI <br> <span id="h1-span"> A website to count everything from People to Money... </span></h1>
-            
-    </div>
+            <h1 id="h1-1"> WELCOME ON WANIEBI <br> 
+                <span id="h1-span"> A website to count everything from People to Money... </span>
+            </h1>
+        </div>
     </section>
 
     <section class="container-fluid pb-5 pt-0">
         <h2 id="h1-2"> You can use this counter, to count and save your entries.</h2>
-       
     </section>
 
     <!-- The card that will container the element for each group
@@ -30,19 +30,25 @@ JavaScript prompt has to go on top-->
 <div>
   <h1 id="myH1"></h1>
   </div>
-  <div id="myCounter">
-      <section class="mySection container-fluid">
-          
-          <div class="card1">
-              <div class="card-body"></div>
-          <div><h2 id="myDepot card-title"> Value:</h2> </div>
-          <h2 id="myH2" style="color: red;">0</h2>
-         <div> <button id="myButton" onclick="ajout()" >Add</button> </div>
-         <div><button id="myEnr" onclick="enregistrer()">Save</button></div>
-         <div> <p id="myTotal" style="color: rgb(12, 115, 211);"> <b> TOTAL: </b> </p> </div>
-  
-      </div>
-      </section>
+    <div id="myCounter">
+        <section class="mySection container-fluid">
+            <div class="card1">
+                <div class="card-body"></div>
+                <div>
+                    <h2 id="myDepot card-title"> Value:</h2> 
+                </div>
+                <h2 id="myH2" style="color: red;">0</h2>
+                <div>
+                    <button id="myButton" onclick="ajout()" >Add</button>
+                </div>
+                <div>
+                    <button id="myEnr" onclick="enregistrer()">Save</button>
+                </div>
+                <div>
+                    <p style="color: rgb(12, 115, 211);"> <b> TOTAL: <span id="myTotal" ></span></b> </p>
+                </div>
+            </div>
+        </section>
     </div>
 
 
